@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "picture": "image/checkup.jpg",
+    "description": "A free medical check-up is a complete body analysis of how your body is functioning. It covers essential body checks like heart health, organ functions, metabolism rate and a host of other symptoms. In this way, you can keep track of your overall health and diagnose any early symptoms of an oncoming disease or illness……",
+    "name": "Free Checkups"
+  },
+  {
+    "id": "2",
+    "picture": "image/ambulance.jpg",
+    "description": "Ambulance services are one of the most utilized medical facilities offered by the healthcare sector in Bangladesh. Ambulances are not merely means of transporting an ill person to the hospital……….",
+    "name": "24/7 Ambulance"
+  },
+  {
+    "id": "3",
+    "picture": " image/experts.jpg",
+    "description": "Our specialists’ top priority is you. Which means you get the answers and assurance you deserve with accuracy you can trust.",
+    "name": "Experts Doctors"
+  },
+  {
+    "id": "4",
+    "picture": " image/medicines.jpg",
+    "description": "Medicines can treat diseases and improve your health. If you are like most people, you need to take medicine at some point in your life. You may need to take medicine every day, or you may only need to take medicine once in a while.",
+    "name": "Medicines"
+  },
+  {
+    "id": "5",
+    "picture": "image/bed.jpg",
+    "description": "A hospital bed or hospital cot is a bed specially designed for s both for the for the entire bed",
+    "name": "Bed Facility"
+  },
+  {
+    "id": "6",
+    "picture": "image/care.jpg",
+    "description": "Total care is where long-term care facilities for residents are responsible",
+    "name": "Total Cares"
+  }
+]

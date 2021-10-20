@@ -1,0 +1,9 @@
+.navigation {
+  background-color: rgb(190, 190, 154);
+}
+.nav-image {
+  width: 50px;
+}
+.nav-link a:hover {
+  color: white !important;
+}

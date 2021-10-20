@@ -1,0 +1,6 @@
+.service-card {
+  border: 2px solid paleturquoise;
+  box-shadow: rgb(59, 55, 55);
+  margin: 10px;
+  padding: 0 10px;
+}
