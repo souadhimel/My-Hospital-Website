@@ -1,10 +1,21 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useHistory } from "react-router-dom";
 import useAuth from "../../Hooks/useAuth";
-
 import "./Login.css";
+
 const Login = () => {
   const { handleGoogleLogin, handleUserLogin } = useAuth();
+
+  const location = useLocation();
+  const history = useHistory();
+  const redirect_url = location.state?.from || "/";
+
+  const handleGoogleSignIn = () => {
+    handleGoogleLogin().then((result) => {
+      history.push(redirect_url);
+    });
+  };
+
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -51,7 +62,7 @@ const Login = () => {
             New to Medicare? <Link to="/signup">sign up</Link>{" "}
           </button>
           <br />
-          <button onClick={handleGoogleLogin} className="btn btn-warning">
+          <button onClick={handleGoogleSignIn} className="btn btn-warning">
             Google Sign In
           </button>
         </form>

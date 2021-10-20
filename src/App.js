@@ -24,35 +24,38 @@ function App() {
         <Router>
           <Header></Header>
           <Switch>
-            <Route path="/home">
+            <Route exact path="/">
               <Home></Home>
             </Route>
-            <Route path="/about">
+            <Route exact path="/home">
+              <Home></Home>
+            </Route>
+            <Route exact path="/about">
               <About></About>
             </Route>
             <PrivateRoute path="/services">
               <Services></Services>
             </PrivateRoute>
-            <Route path="/doctors">
+            <Route exact path="/doctors">
               <Doctors></Doctors>
             </Route>
-            <Route path="/book">
+            <Route exact path="/book">
               <Book></Book>
             </Route>
-            <Route path="/review">
+            <PrivateRoute exact path="/review">
               <Review></Review>
-            </Route>
-            <Route path="/blogs">
+            </PrivateRoute>
+            <Route exact path="/blogs">
               <Blogs></Blogs>
             </Route>
-            <Route path="/details/:id">
+            <Route exact path="/details/:id">
               <Details></Details>
             </Route>
 
-            <Route path="/login">
+            <Route exact path="/login">
               <Login></Login>
             </Route>
-            <Route path="/signup">
+            <Route exact path="/signup">
               <SignUp></SignUp>
             </Route>
             <Route path="*">
