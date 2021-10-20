@@ -58,12 +58,12 @@ const useFirebase = () => {
   };
   //submit click after putting email & password
   const handleUserRegister = (email, password, name) => {
-    // console.log(email, password);
+    console.log(email, password);
     createUserWithEmailAndPassword(auth, email, password)
       .then((result) => {
-        updateProfile(auth.currentUser, {
-          displayName: name,
-        });
+        // updateProfile(auth.currentUser, {
+        //   displayName: name,
+        // });
         setUser(result.user);
         console.log(result.user);
       })

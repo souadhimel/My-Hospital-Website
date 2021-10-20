@@ -58,7 +58,7 @@ const Login = () => {
             className="btn"
           />
           <br /> <br />
-          <button>
+          <button className="signup">
             New to Medicare? <Link to="/signup">sign up</Link>{" "}
           </button>
           <br />
