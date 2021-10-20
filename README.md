@@ -12,9 +12,3 @@
 <li>I had to make Email Authentication with Google sign in.
 </li>
 </ul>
-
-•
-•
-•
-•
-•
